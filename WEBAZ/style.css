@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    height: 70px;
+    background: rgb(255, 255, 255); /* Background color with opacity */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo {
+    background-image: url('LOGO.jpg'); /* Corrected image path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 40px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1rem; /* Corrected font size */
+}
+
+nav a:hover {
+    color: #8faf97;
+}
+
+.display{
+    /*background: #536b4f;*/
+        background-image: url('wind.jpg'); /* Specify the path to your image */
+        background-size: cover; /* Cover the entire background */
+        background-position: center; /* Center the background */
+        color: #bfc9b8; /* Set text color */
+}
+.display-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #ffffff;
+    padding: 0rem 2rem;
+}
+
+.column-left h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.column-left p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.btn {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    background: #fff13362;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background: #bfc9b889;
+    color: #fff13362;
+}
+
